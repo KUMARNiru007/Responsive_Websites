@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position : relative;
+}
+.nav{
+    height : 100px
+    width: 100%;
+    background-color: red;
+    display: flex; /*children in a one line */
+    align-items: center; /*vertical center */
+    justify-content: space-between; 
+    /*horizontal center */
+    padding: 0 3vw;
+}
+.nav-part2{
+    display: flex;
+    background-color: blue;
+    gap:4vw;
+    align-items: center;
+}
+.nav h2{
+    font-size: 2vm;
+    font-weight:700;
+}
